@@ -1,7 +1,7 @@
-SmartGuard: File Corruption Detection & Recovery System:
+# SmartGuard: File Corruption Detection & Recovery System:
   SmartGuard is a powerful desktop computer security software developed using Python and PyQt5. SmartGuard performs real-time file corruption scanning and raw deleted file recovery using low-level disk scanning.   With the new, interactive graphical user interface and enhanced integrity checking, SmartGuard preserves data integrity and facilitates quick file restoration from accidental deletion.
 
-Features:
+# Features:
 
 ➣ The continuous tracking of the assigned folders.
 ➣ Manual Integrity Check using SHA-256 + format checking
@@ -12,7 +12,7 @@ Features:
 ➣ Process Scheduling: Runs with the Highest Priority (REALTIME)
 ➣ Administrative Access Prompt at Startup
 
-Workflow & Architecture:
+# Workflow & Architecture:
 
 ➣ GUI Interface: Developed using PyQt5 and custom CSS styled
 
@@ -38,7 +38,7 @@ Workflow & Architecture:
   → .zip (compressed archives)
   → Other formats can be implemented using the signature definitions available in recovery.py.
 
-How to Run:
+# How to Run:
 
 ➣ Requirements
   → Python 3.8+
@@ -59,7 +59,7 @@ How to Run:
     • Set process priority to REALTIM
     • Start default monitoring of the Downloads folder.
 
-Main Modules:
+# Main Modules:
 
   ➣ Module\tResponsibility
   ➣ app.py
@@ -69,7 +69,7 @@ Main Modules:
   ➣ recovery.py
   ➣ File carving engine (header-footer scanning)
 
-Example Use Case
+# Example Use Case:
   
   ➣ Open SmartGuard in admin.
   ➣ Choose a folder to look at (Downloads, Documents, etc.)
@@ -78,12 +78,12 @@ Example Use Case
   ➣ Click on "Recover Raw Files" and select drive & output path.
   ➣ Deleted files (images/docs) will be carved & restored!
 
-★ Notes:
+# Notes:
    ➣ Recovery success depends on whether deleted data has been overwritten.
    ➣ Scanning whole drives is time-consuming; use demo on external drives/USBs. 
    ➣ Run as Admin to have full functionality.
 
-★ Author
+# Author
    ➣ Developed by Shiv Swaroop Sabharwal
    ➣ Contact: shivswaroopsabharwal@gmail.com
 
